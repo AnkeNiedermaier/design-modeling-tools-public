@@ -16,7 +16,7 @@ Alternatively, the corresponding ***.allep** package can be downloaded from the 
 At least the version 2026 is needed to install the PythonPart.
 
 ## Installed PythonPart Scripts
-If the installation was successfull, the individual PythonParts **Creat3DfromArea.pyp**, **DrawBodyOnPlane.pyp**, **FlattenCurves.pyp**, **PolygonizeArea.pyp** **ProjectOnPlan.pyp** and it contains can be found
+If the installation was successfull, the individual PythonParts **Creat3DfromArea.pyp**, **DrawBodyOnPlane.pyp**, **FlattenCurves.pyp**, **PolygonizeArea.pyp** and **ProjectOnPlan.pyp** it contains can be found
 in the ALLPLAN Library:
 `Office` → `ALLPLAN GmbH` → `DesignAndModelingTools`
 
