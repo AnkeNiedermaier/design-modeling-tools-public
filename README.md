@@ -7,9 +7,9 @@ The PythonPart contains a set of tools or individual PythonParts to improve desi
 They can be executed and used independend from each other.
 
 ## Installation
-The PythonPart **DesignANdModelingTools** can be installed directly from the Plugin Manager in ALLPLAN. 
+The PythonPart **DesignAndModelingTools** can be installed directly from the Plugin Manager in ALLPLAN. 
 
-Alternatively, the corresponding ***.allep** package can be downloaded from the [release page]((https://github.com/AnkeNiedermaier/design-modeling-tools-public/releases)). ***.allep** files are ALLPLAN internal setups that can be installed via drag and drop into the program window.
+Alternatively, the corresponding ***.allep** package can be downloaded from the [release page](https://github.com/AnkeNiedermaier/design-modeling-tools-public/releases). ***.allep** files are ALLPLAN internal setups that can be installed via drag and drop into the program window.
 
 At least the version 2026 is needed to install the PythonPart.
 
