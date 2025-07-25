@@ -18,12 +18,17 @@ At least the version 2026 is needed to install the PythonPart.
 ## Installed PythonPart Scripts
 If the installation was successfull, the individual PythonParts **Creat3DfromArea.pyp**, **DrawBodyOnPlane.pyp**, **FlattenCurves.pyp**, **PolygonizeArea.pyp** and **ProjectOnPlan.pyp** can be found
 in the ALLPLAN Library:
-`Office` → `ALLPLAN GmbH` → `DesignAndModelingTools`
-Besides this, they are also added to the ActionBar in a new created task area DesignAndModelingTool in the tasl Plug-ins.
+`Office` → `ALLPLAN GmbH` → `DesignAndModelingTools`\
+Besides this, they are also added to the ActionBar in a new created task area **DesignAndModelingTools** in the tasl Plug-ins.
 
-# Workflows
+# Workflow
 Although the single PythonParts cover different use-cases, the structure of the corresponding palette is more or less the same. They all contain the sections:
 - **Object selection**
 - **Format**
 - **Creation**
-and the **..OnPlane** PythonParts additionally one for the **Plane definition**.
+
+and the **..OnPlane** PythonParts additionally one for the **Plane definition**.\
+For the latter the definition of a plane is necessary first, whereas for the others the palette content is shown directly when the PythonPart is started.
+
+## Plane definition
+To specify the plane on which the objects should be projected, the PythonParts **DrawBodyOnPlane** and **ProjectOnPlane** reqiure the input of 3 points as stated in the dialog line
