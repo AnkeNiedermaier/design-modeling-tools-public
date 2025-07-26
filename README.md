@@ -31,14 +31,20 @@ and the **..OnPlane** PythonParts additionally one for the **Plane definition**.
 For the latter the definition of a plane is necessary first, whereas for the others the section **Object selection** is shown directly when the PythonPart is started.
 
 ## Plane definition
-To specify the plane on which the objects should be projected, the PythonParts **DrawBodyOnPlane** and **ProjectOnPlane** reqiure the input of 3 points as stated in the dialog line
+To specify the plane on which the objects should be projected, the PythonParts **DrawBodyOnPlane** and **ProjectOnPlane** reqiure the input of 3 points as stated in the dialog line.
 
 <img src = "./docs/plane_point_input.png" width = 450/>
-Each of them can also be modified afterward in clicking on the corresponding button in the palette
+Each of them can also be modified afterward in clicking on the corresponding button in the palette.
 
 <img src = "./docs/plane_point_modify.png" width = 450/>
 
-As soon as the points are set and therefor the plane is determined, the **Object selection** section of the palette is also shown in the palette of these PythonParts
+As soon as the points are set and therefor the plane is determined, the **Object selection** section is also shown in the palette of these PythonParts.
 
 ## Object selection
+Depending on the functionality, only object types relevant for the individual PythonPart are listed in this section. That means the PythonPart already contains a rough predefined filter for the selection. If the CheckBox **show all** is activated, all possible object types are listed, otherwise only the activated ones.
+
+> ⚠️ IMPORTANT\
+> In contrast to the listed objects types the PythonPart **ProjectOnPlane** only supports the projection of curves whereas 3D bodies can be projected with the PythonPart **DrawBodyOnPlane**!
+
+
 
