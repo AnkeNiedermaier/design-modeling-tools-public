@@ -34,7 +34,7 @@ For the latter the definition of a plane is necessary first, whereas for the oth
 To specify the plane on which the objects should be projected, the PythonParts **DrawBodyOnPlane** and **ProjectOnPlane** reqiure the input of 3 points as stated in the dialog line.
 
 <img src = "./docs/plane_point_input.png" width = 450/>
-Each of them can also be modified afterward in clicking on the corresponding button in the palette.
+Each of them can also be modified afterwards in clicking on the corresponding button in the palette.
 
 <img src = "./docs/plane_point_modify.png" width = 450/>
 
@@ -50,8 +50,8 @@ Depending on the functionality, only object types relevant for the individual Py
 > ⚠️ IMPORTANT\
 > In contrast to the listed objects types the PythonPart **ProjectOnPlane** only supports the projection of curves, to project 3D bodies the PythonPart **DrawBodyOnPlane** has to be used!
 
-The selection as such can be executed as usual in Allplan in klicking on a single objects or enter an activation area. As far as they meet the selection filter criteria, all containing objects will be taken into account.\
-Similar to the plane definition, the object selection can also be modified aftwerward with the button **New selection** in the palette.
+The selection as such can be executed as usual in Allplan in klicking on a single objects or enter an activation area. As far as they meet the selection filter criteria, all objects inside the area will be taken into account.\
+Similar to the plane definition, the object selection can also be modified aftwerwards with the button **New selection** in the palette.
 
 ## Formating
 Once the selection is finished, also the still missing sections for the execution will be shown. Here the formating (pen, color, layer, ...) can be determined
