@@ -43,8 +43,25 @@ As soon as the points are set and therefor the plane is determined, the **Object
 ## Object selection
 Depending on the functionality, only object types relevant for the individual PythonPart are listed in this section. That means the PythonPart already contains a rough predefined filter for the selection. If the CheckBox **show all** is activated, all possible object types are listed, otherwise only the activated ones.
 
-> ⚠️ IMPORTANT\
-> In contrast to the listed objects types the PythonPart **ProjectOnPlane** only supports the projection of curves whereas 3D bodies can be projected with the PythonPart **DrawBodyOnPlane**!
+<img src = "./docs/selection_all.png" width = 450/>\
+<img src = "./docs/selection_active.png" width = 450/>
 
+
+> ⚠️ IMPORTANT\
+> In contrast to the listed objects types the PythonPart **ProjectOnPlane** only supports the projection of curves, to project 3D bodies the PythonPart **DrawBodyOnPlane** has to be used!
+
+The selection as such can be executed as usual in Allplan in klicking on a single objects or enter an activation area. As far as they meet the selection filter criteria, all containing objects will be taken into account.\
+Similar to the plane definition, the object selection can also be modified aftwerward with the button **New selection** in the palette.
+
+## Formating
+Once the selection is finished, also the still missing sections for the execution will be shown. Here the formating (pen, color, layer, ...) can be determined
+
+## Kind of objects (Create3DfromArea)
+As this PythonPart offers the possibility to create different kinds of objects from area elements, it contains a sepcial section, where the desired ones and for 3D bodies also a height can be choosen.
+
+<img src = "./docs/kind_of_object.png" width = 450/>
+
+## Execution
+The final setp to finish the workflow is klicking the **execute!** button in the palette, which creates the relevant objects directly in the active drawing file and if desired also delets their origin.
 
 
