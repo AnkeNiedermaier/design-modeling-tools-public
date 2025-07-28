@@ -51,7 +51,7 @@ Depending on the functionality, only object types relevant for the individual Py
 > In contrast to the listed objects types the PythonPart **ProjectOnPlane** only supports the projection of curves, to project 3D bodies the PythonPart **DrawBodyOnPlane** has to be used!
 
 The selection as such can be executed as usual in Allplan in klicking on a single objects or enter an activation area. As far as they meet the selection filter criteria, all objects inside the area will be taken into account.\
-Similar to the plane definition, the object selection can also be modified aftwerwards with the button **New selection** in the palette.
+Similar to the plane definition, the object selection can also be modified aftwerwards with the button **new selection** in the palette.
 
 ## Formating
 Once the selection is finished, also the still missing sections for the execution will be shown. Here the formating (pen, color, layer, ...) can be determined
@@ -64,4 +64,6 @@ As this PythonPart offers the possibility to create different kinds of objects f
 ## Execution
 The final setp to finish the workflow is klicking the **execute!** button in the palette, which creates the relevant objects directly in the active drawing file and if desired also delets their origin.
 
-
+<a href="https://raw.githubusercontent.com/AnkeNiedermaier/design-modeling-tools-public/main/docs/Design_Modeling_Tools.mp4" target="_blank">
+  <img src="https://raw.githubusercontent.com/AnkeNiedermaier/design-modeling-tools-public/main/docs/Design_Modeling_Tools_video.png" alt="Click to play video" width="600" height="300">
+</a>
