@@ -64,6 +64,8 @@ As this PythonPart offers the possibility to create different kinds of objects f
 ## Execution
 The final setp to finish the workflow is klicking the **execute!** button in the palette, which creates the relevant objects directly in the active drawing file and if desired also delets their origin.
 
+## Video
+
 <a href="https://raw.githubusercontent.com/AnkeNiedermaier/design-modeling-tools-public/main/docs/Design_Modeling_Tools.mp4" target="_blank">
   <img src="https://raw.githubusercontent.com/AnkeNiedermaier/design-modeling-tools-public/main/docs/Design_Modeling_Tools_video.png" alt="Click to play video" width="600" height="300">
 </a>
