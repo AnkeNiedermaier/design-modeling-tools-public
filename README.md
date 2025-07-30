@@ -4,7 +4,7 @@ The PythonPart contains a set of tools to improve design and modeling workflows 
 - **DrawBodyOnPlane** to create projections of 3D bodies on a plane
 - **FlattenCurves** to convert 3D curves to 2D
 - **PolygonizeArea** to draw a border around area elements
-- **ProjectOnPlan** to create projections of 3D curves on a plane
+- **ProjectOnPlane** to create projections of 3D curves on a plane
 
 As each of them is a single PythonPart itself they can be executed and used independend from each other.
 
@@ -19,7 +19,7 @@ At least the version 2026 is needed to install the PythonPart.
 If the installation was successfull, the individual PythonParts **Creat3DfromArea.pyp**, **DrawBodyOnPlane.pyp**, **FlattenCurves.pyp**, **PolygonizeArea.pyp** and **ProjectOnPlan.pyp** can be found
 in the ALLPLAN Library:
 `Office` → `ALLPLAN GmbH` → `DesignAndModelingTools`\
-Besides this, they are also added to the ActionBar in a new created task area **DesignAndModelingTools** in the task Plug-ins.
+Besides this, they are also added to the ActionBar in a new created task area **DesignAndModelingTools** in the task **Plug-ins**.
 
 # Workflow
 Although the single PythonParts cover different use-cases, the structure of the corresponding palette is more or less the same. They all contain the sections:
